@@ -1,0 +1,60 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+    .skills {
+      width: 50%;
+      margin-bottom: 50px;
+      display: block;
+      margin: auto;
+    }
+  
+    footer {
+      text-align: center;
+    }
+  
+    .top-wrapper h1 {
+      font-size: 32px;
+    }
+  
+    .heading h2 {
+      font-size: 20px;
+    }
+  }
+  
+  /* スマホ向けレイアウト */
+  @media all and (max-width: 670px) {
+    .skills {
+      width: 100%;
+
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  
+  .btn-wrapper{
+    float: block;
+    margin: auto;
+  }
+
+    
+    .top-wrapper {
+      text-align: left;
+    }
+  
+    .header-right{
+      display:none;
+    }
+   
+    .menu-icon{
+      display:block;
+    }
+  
+
+    .top-wrapper h1 {
+      font-size: 24px;
+    }
+  
+    .top-wrapper p {
+      font-size: 14px;
+    }
+  }
