@@ -193,6 +193,12 @@ header:hover {
   font-size: 45px;
 }
 
+.explain{
+  margin: auto;
+  width: 65%;
+}
+
+
 .portfolio{
   overflow: hidden;
   width: 400px;
